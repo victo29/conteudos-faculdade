@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário feedback</h1>
+    </header>
+    <main>
+        <form action="">
+
+            <label for="nome-completo">Nome </label> <br>
+            <input type="text" name="nome-completo" ><br>
+
+            <label for="comentario">comentario</label><br>
+            <textarea name="comentario" id="" cols="50" rows="3" minlength="20" required></textarea><br>
+            
+            <label for="satisfacao">Nivel Satisfação</label>
+            <input type="range" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+            
+
+            <button type="submit">Enviar</button>
+            
+        </form>
+    </main>
+
+</body>
+</html>
